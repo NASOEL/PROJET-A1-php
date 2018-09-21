@@ -143,6 +143,7 @@
 		<div class="fields">
 			<h3>Merci de sélectionner les tables que vous voulez consulter:</h3>            
             <?php
+            // creation du chexkbox
             for($i=0;$i<=10;$i++)
             {
                 echo("<label for='$i'> table $i</label>&nbsp&nbsp&nbsp");
@@ -150,6 +151,7 @@
                 
             }
             ?>
+        <!-- affichage des table de multiplication -->
             <?php
             if(isset($_POST['valeur']))
             {
